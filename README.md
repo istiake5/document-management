@@ -36,8 +36,7 @@ Example Data:
         "name" : "istiake",
         "email" : "istiake@gmail.com",
         "password" : "istiake123456@",
-        "password_confirmation": "istiake123456@"
-  
+        "password_confirmation": "istiake123456@",
     } 
 
 #### http://127.0.0.1:8000/api/login
@@ -46,5 +45,3 @@ Example Data:
         "email" : "istiake@gmail.com",
         "password" : "istiake123456@",
     } 
-
-# document-management
