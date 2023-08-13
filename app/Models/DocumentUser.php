@@ -10,8 +10,8 @@ class DocumentUser extends Model
     use HasFactory;
 
     protected $fillable = [
-        'document_id ',
-        'user_id ',
+        'document_id',
+        'user_id',
         'last_viewed_version',
     ];
 

@@ -70,9 +70,9 @@ class CreateDocumentDiffs extends Command
 
     protected function generateDiff($oldContent, $newContent)
     {
-        $differ = new Differ();
+        $differ = new Differ(new \SebastianBergmann\Diff\Output\UnifiedDiffOutputBuilder("--- Original\n+++ New\n"));
         $diff = $differ->diff($oldContent, $newContent);
-    
+
         return $diff;
     }
 }
